@@ -5,71 +5,40 @@
 .side-bar{
   height: 100vh;
   width: 300px;
+  padding: 0 20px;
   background-color: #253141;
 }
 
 .side-top{
   height: 100px;
-  padding: 0 20px;
   background-color: #253141;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.user-name{
-  color: #fafafa;
-  font-size: 16px;
-}
-
-.room-making-btn{
-  padding: 14px;
-  border: 1px solid lightblue;
-  text-align: center;
-}
-
-.no-underline{
-  font-weight: 10px;
-  color: deepskyblue;
-  text-decoration: none;
-}
-
-.room-index{
+.room-name-area{
   height: calc(100vh - 100px);
-  padding: 0 20px;
   background-color: #2f3e51;
-  overflow: scroll;
-}
-
-.room{
-  padding: 20px 0 40px;
-}
-
-.room-name a{
-  color: white;
-  text-decoration: none;
 }
 
 .main{
   height: 100vh;
   width: calc(100vw - 300px);
+  padding: 0 40px;
   background-color: #fff;
 }
 
 .main-header{
   height: 100px;
-  padding: 0 40px;
   background-color: #fff;
 }
 
 .chat-area{
   height: calc(100vh - 190px);
-  padding: 46px 40px 0;
+  padding-top: 46px;
   background-color: #fafafa;
 }
 
 .posting-area{
   height: 90px;
-  padding: 20px 40px;
+  padding: 20px 0;
   background-color: #ddd;
 }
