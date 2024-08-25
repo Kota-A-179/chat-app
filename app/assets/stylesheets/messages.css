@@ -86,28 +86,28 @@
   overflow: scroll;
 }
 
-.chat-box{
+.message{
   margin-bottom: 40px;
 }
 
-.name-date{
+.upper-message{
   margin: 10px 0;
   display: flex;
   align-items: flex-start;
 }
 
-.chatter-name{
+.message-user{
   margin-right: 10px;
   font-size: 16px;
   color: #434a54;
 }
 
-.chatting-date{
+.message-date{
   font-size: 12px;
   color: #999;
 }
 
-.chat-message{
+.message-content{
   font-size: 14px;
   color: #434a54;
 }
